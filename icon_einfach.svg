@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#1a1408"/>
+  <rect x="12" y="12" width="488" height="488" rx="72" fill="none" stroke="#c9a84c" stroke-width="8"/>
+  <!-- Open book -->
+  <path d="M256 160 C220 155 160 160 130 175 L130 370 C160 355 220 350 256 355 C292 350 352 355 382 370 L382 175 C352 160 292 155 256 160Z" fill="#2a1e0a" stroke="#c9a84c" stroke-width="4"/>
+  <!-- Spine -->
+  <rect x="250" y="158" width="12" height="198" rx="2" fill="#c9a84c"/>
+  <!-- Left page lines -->
+  <line x1="155" y1="200" x2="240" y2="195" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.5"/>
+  <line x1="155" y1="220" x2="240" y2="215" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.4"/>
+  <line x1="155" y1="240" x2="240" y2="235" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.4"/>
+  <line x1="155" y1="260" x2="240" y2="255" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <line x1="155" y1="280" x2="240" y2="275" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <line x1="155" y1="300" x2="240" y2="295" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <!-- Right page lines -->
+  <line x1="272" y1="195" x2="357" y2="200" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.5"/>
+  <line x1="272" y1="215" x2="357" y2="220" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.4"/>
+  <line x1="272" y1="235" x2="357" y2="240" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.4"/>
+  <line x1="272" y1="255" x2="357" y2="260" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <line x1="272" y1="275" x2="357" y2="280" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <line x1="272" y1="295" x2="357" y2="300" stroke="#c9a84c" stroke-width="3" stroke-opacity="0.3"/>
+  <!-- Title -->
+  <text x="256" y="430" text-anchor="middle" font-family="Georgia,serif" font-size="32" font-weight="bold" fill="#c9a84c" letter-spacing="2">BIBLIOTHEK</text>
+  <text x="256" y="462" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#8a7f6e" letter-spacing="3">EINFACH</text>
+</svg>
