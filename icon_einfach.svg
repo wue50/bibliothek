@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#0d1f3c"/>
+    </linearGradient>
+    <linearGradient id="book1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="100%" style="stop-color:#e8c97a"/>
+    </linearGradient>
+    <linearGradient id="book2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b3a2a"/>
+      <stop offset="100%" style="stop-color:#c0503a"/>
+    </linearGradient>
+    <linearGradient id="book3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5c3a"/>
+      <stop offset="100%" style="stop-color:#2a9c6a"/>
+    </linearGradient>
+    <linearGradient id="book4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a3a8c"/>
+      <stop offset="100%" style="stop-color:#4a6adc"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="rgba(0,0,0,0.5)"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="90" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <rect width="512" height="512" rx="90" fill="none" stroke="#c9a84c" stroke-width="2" opacity="0.3"/>
+
+  <!-- Decorative corner accents -->
+  <path d="M30 90 L30 30 L90 30" fill="none" stroke="#c9a84c" stroke-width="4" opacity="0.6"/>
+  <path d="M422 30 L482 30 L482 90" fill="none" stroke="#c9a84c" stroke-width="4" opacity="0.6"/>
+  <path d="M30 422 L30 482 L90 482" fill="none" stroke="#c9a84c" stroke-width="4" opacity="0.6"/>
+  <path d="M422 482 L482 482 L482 422" fill="none" stroke="#c9a84c" stroke-width="4" opacity="0.6"/>
+
+  <!-- BOOKS - standing upright, modern flat style with depth -->
+
+  <!-- Book 4 - Blue (back left) -->
+  <g filter="url(#shadow)">
+    <rect x="95" y="155" width="58" height="210" rx="4" fill="url(#book4)"/>
+    <rect x="95" y="155" width="14" height="210" rx="4" fill="#3a5acc" opacity="0.8"/>
+    <rect x="115" y="175" width="30" height="4" rx="2" fill="white" opacity="0.4"/>
+    <rect x="115" y="188" width="22" height="3" rx="1" fill="white" opacity="0.3"/>
+    <rect x="115" y="198" width="26" height="3" rx="1" fill="white" opacity="0.25"/>
+  </g>
+
+  <!-- Book 3 - Green -->
+  <g filter="url(#shadow)">
+    <rect x="168" y="130" width="68" height="235" rx="4" fill="url(#book3)"/>
+    <rect x="168" y="130" width="16" height="235" rx="4" fill="#1a7a4a" opacity="0.8"/>
+    <rect x="192" y="152" width="36" height="5" rx="2" fill="white" opacity="0.45"/>
+    <rect x="192" y="167" width="26" height="3" rx="1" fill="white" opacity="0.3"/>
+    <rect x="192" y="178" width="32" height="3" rx="1" fill="white" opacity="0.25"/>
+    <rect x="192" y="189" width="20" height="3" rx="1" fill="white" opacity="0.2"/>
+  </g>
+
+  <!-- Book 2 - Red (tallest, center) -->
+  <g filter="url(#shadow)">
+    <rect x="248" y="108" width="74" height="257" rx="5" fill="url(#book2)"/>
+    <rect x="248" y="108" width="18" height="257" rx="5" fill="#7a2a1a" opacity="0.8"/>
+    <rect x="275" y="132" width="38" height="6" rx="2" fill="white" opacity="0.5"/>
+    <rect x="275" y="148" width="28" height="3" rx="1" fill="white" opacity="0.35"/>
+    <rect x="275" y="160" width="34" height="3" rx="1" fill="white" opacity="0.3"/>
+    <rect x="275" y="172" width="22" height="3" rx="1" fill="white" opacity="0.25"/>
+    <!-- Iron cross decoration -->
+    <rect x="274" y="240" width="18" height="4" rx="1" fill="white" opacity="0.5"/>
+    <rect x="281" y="233" width="4" height="18" rx="1" fill="white" opacity="0.5"/>
+  </g>
+
+  <!-- Book 1 - Gold (front right) -->
+  <g filter="url(#shadow)">
+    <rect x="334" y="142" width="64" height="223" rx="4" fill="url(#book1)"/>
+    <rect x="334" y="142" width="15" height="223" rx="4" fill="#a07830" opacity="0.8"/>
+    <rect x="357" y="164" width="32" height="5" rx="2" fill="white" opacity="0.5"/>
+    <rect x="357" y="179" width="24" height="3" rx="1" fill="white" opacity="0.35"/>
+    <rect x="357" y="190" width="28" height="3" rx="1" fill="white" opacity="0.3"/>
+    <rect x="357" y="201" width="18" height="3" rx="1" fill="white" opacity="0.25"/>
+  </g>
+
+  <!-- Shelf with glow effect -->
+  <rect x="75" y="368" width="362" height="12" rx="6" fill="#c9a84c" opacity="0.9" filter="url(#glow)"/>
+  <rect x="60" y="376" width="392" height="6" rx="3" fill="#c9a84c" opacity="0.4"/>
+
+  <!-- Shadow under books -->
+  <ellipse cx="256" cy="375" rx="180" ry="8" fill="rgba(0,0,0,0.3)"/>
+
+  <!-- App name -->
+  <text x="256" y="434" text-anchor="middle"
+    font-family="'Arial', sans-serif"
+    font-size="36" font-weight="900"
+    fill="#e8c97a"
+    letter-spacing="4">BIBLIOTHEK</text>
+
+  <!-- Subtitle line -->
+  <line x1="80" y1="448" x2="176" y2="448" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+  <text x="256" y="464" text-anchor="middle"
+    font-family="'Arial', sans-serif"
+    font-size="18" font-weight="400"
+    fill="#8a7f6e"
+    letter-spacing="6">PRIVAT</text>
+  <line x1="336" y1="448" x2="432" y2="448" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+</svg>
